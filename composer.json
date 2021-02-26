@@ -1,0 +1,21 @@
+{
+    "name": "some/name",
+    "description": "Some description will be useful too!",
+    "require": {
+        "php": "^7.3.0"
+      },
+    "extra": {
+        "heroku": {
+            "index-document": "./index.php"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aprajita Jain",
+            "email": "aprajitajain90@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "composer/composer": "^2.0"
+    }
+}

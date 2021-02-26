@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> First Web Page </title>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"
+        integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    <!-- Top header menu containing
+         logo and Navigation bar -->
+    <div id="top-header">
+
+        <!-- Logo -->
+        <div id="logo">
+            <img src="images/logo.png"  alt="logo_image"/>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+            <div id="menu">
+                <ul>
+                    <li class="active"><a href="#">Education</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Hobbies</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Image menu in Header to contain an Image and 
+             a sample text over that image -->
+    <div id="header-image-menu">
+        <img src="images/aprajita.jpg" alt="profile_image">
+        <h2 id="image-text">
+            PROFILE >
+            <span id="textstyle">Employee Profile</span>
+        </h2>
+    </div>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h3 style="text-align: center">Skill</h3>
+            <p class="heading">Javascript</p>
+            <p class="heading">Java</p>
+            <p class="heading">HTML</p>
+            <p class="heading">CSS</p>
+            <p class="heading">DBMS</p>
+            <h3 style="text-align: center">Interests</h3>
+            <p class="heading">Design Website</p>
+            <p class="heading">Exploring</p>
+            <p class="heading">System Design</p>
+        </div>
+        <div class="partition">
+            <!-- Section 1 of Main content -->
+            <section>
+                <div id="welcome">
+                    <h1 class="title">Welcome to our profile website</h1>
+
+                    <p>
+                        This is a <strong>Profile </strong>, a HTML
+                        and CSS template designed by the <a href="#"
+                    target="_blank" rel="nofollow">Aprajita</a>.
+                        The photos in this template are designed by our
+                        <b>Department</b>. This template is designed
+                        to explain the basics of HTML and CSS in our first
+                        Web Design course.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 2 of Main content -->
+            <section>
+                <div class="row">
+                    <div>
+                        <div class="column-title">
+                            <h2>Education</h2>
+                        </div>
+                        <p>
+                            UCSC Silicon Valley Extension, Santa Clara, CA <br>
+                            Certificate Program in Internet Programming & Development
+                            June 2016
+                        </p>
+                        <p>
+                            Mody Institute of Technology and Science, Rajasthan <br>
+                            Master Computer Application (M.C.A.)
+                            July 2012
+                        </p>
+                        <p>
+                            Chaudhary Charan Singh University, Meerut <br>
+                            Bachelor Computer Application (B.C.A.)
+                            July 2009
+                        </p>
+
+                        <a href="#" target="_blank" class="button">
+                            Learn More
+                        </a> <br><br>
+                    </div>
+                </div>
+            </section>
+            <!-- Section 2 of Main content -->
+            <section>
+                <div id="row">
+
+                    <!-- Column 1 -->
+                    <div>
+                        <img src="./images/education.jpg" class="image image-full" alt="education_image"> <br><br>
+
+                        <div class="img-title">
+                            <h3> Projct</h3>
+                        </div>
+
+                        <p>
+                            Explorapedia March 2017
+                            Built an app to find near by hotels, deals and attractions.
+                            Involved in developing the Front End application using web technologies like HTML/HTML5 and
+                            CSS/CSS3.
+                            Built Web pages those are more user-interactive using <span> Express.JS, JavaScript and
+                                React.JS.</span>
+                            Involved in making the application Responsive using Bootstrap.
+                            Designed Frontend with in object oriented JavaScript Framework like React.JS.
+                            Created package.json for Bower and NPM.
+                            Leveraged Google Map API to generate places data and store in database for faster future
+                            queries.
+                            Involved in writing application level code to interact with Google APIs, RESTFul web Service
+                            using Express.JS, JSON.
+                            Built interactive component that persisted data using Sequelize and PostGres for optimized
+                            data storage.
+                            Worked one-on-one with client to develop layout, color scheme for his website and
+                            implemented it into a
+                            final interface design with the HTML5/CSS3 & JavaScript.
+                        </p>
+
+                        <a href="#" target="_blank" class="button">
+                            Learn More
+                        </a> <br><br>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="row">
+
+                    <!-- Column 1 -->
+                    <div>
+                        <div class="img-title">
+                            <h3> Hobbies</h3>
+                        </div>
+                        <p>
+                            Playing Lawn Tennis<br>
+                            PLaying Chess<br>
+                            Making Painting<br>
+                            Cooking<br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="company-details">
+            <div class="row">
+                <div id="col1">
+                    <span id="icon" class="fa fa-eye"></span>
+                    <span>
+                        Employee Profile
+                    </span>
+                </div>
+                <div id="col2">
+                    <span id="icon" class="fa fa-phone"></span>
+                    <span>
+                        Telephone: +91-890 * * * * * * *
+                    </span>
+                </div>
+                <div id="col3">
+                    <span id="icon" class="fa fa-envelope"></span>
+                    <span>xyz@gmail.com.org</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>© All rights reserved | Profile</p>
+
+            <ul class="contact">
+                <li><img src="images/logo1.png" alt="logo_image"></li>
+                <li>
+                    <a href="#" class="fa fa-twitter">
+                        <!-- <span></span> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-facebook">
+                        <!-- <span></span> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fa fa-rss">
+                        <!-- <span></span> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

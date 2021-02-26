@@ -1,0 +1,290 @@
+html, body{
+	height: 100%;
+}
+	
+body{
+	margin: 0px;
+	padding: 0px;
+	background:#ffffff;
+	font-family: 'Roboto';
+	font-size: 12pt;
+}
+		
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	color: #404040;
+}
+	
+p, ol, ul{
+	margin-top: 0;
+}
+
+p {
+	line-height: 150%;
+}
+
+ol, ul{
+	padding: 0;
+	list-style: none;
+}
+	
+.container{ 
+	/* Set width of container to 
+		1200px and align center */
+	margin: 0px auto;
+	width: 1200px;
+}
+
+header{
+     
+    overflow: hidden;
+}
+ 
+#top-header{
+         
+    text-align: center;
+    height: 60px;
+}
+ 
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+ 
+#logo img{
+    width: 30%;
+    float: left;
+    /* padding: 10px 0px; */
+}    
+ 
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background:#ffffff;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: #0a0a0a;
+}
+     
+#menu li:hover a, #menu li span{
+    background: #FFF;
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+#header-image-menu{ 
+    top: 10px; 
+    position: relative;
+} 
+  
+#header-image-menu img{ 
+    width:100px;
+    height:100px ;
+    border-radius: 100%;
+    margin: 5px; 
+    padding: 5px; 
+} 
+  
+#image-text{ 
+    position: absolute; 
+    top: 15%; 
+    left: 15%; 
+    font-family: 'Roboto'; 
+    color: blue; 
+    /* transform: translate(-30%, -30%);  */
+    text-align: center; 
+}  
+#textstyle{
+   
+    color: black;
+    font-style:italic;
+    font-size:x-large;
+    
+}
+ #header-image-menu{ 
+    top: 10px; 
+    position: relative; 
+}  
+  
+#header-image-menu img{ 
+    width:100px;
+    height:100px ;
+    border-radius: 100%;
+    margin: none; 
+    padding: none; 
+} 
+  
+#image-text{ 
+    margin: 20px;
+    padding: 20px; 
+    position:absolute; 
+    top: 15%; 
+    left: 15%; 
+    /* font-family: 'Roboto';  */
+    font-size: small;
+    color: #1a2ab8; 
+    transform: translate(-30%, -30%); 
+    text-align: left; 
+} 
+
+.sidebar {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    background-color:#f7f1f1;
+    position:absolute;
+    height:175%;
+    overflow: auto;
+}
+.partition{
+    margin-left:18%;
+}
+#welcome 
+{    overflow: hidden; 
+    width: 1000px; 
+    margin: 0px auto; 
+} 
+          
+#welcome .title{ 
+    margin-top: 20px; 
+    padding: 20px; 
+    text-align: center; 
+} 
+  
+#welcome p{ 
+    margin-bottom: 40px; 
+    text-align: center; 
+} 
+#section-2{ 
+    overflow: hidden; 
+    margin-top: 5em; 
+    padding-top: 1em; 
+    border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+.column-title h2{ 
+    margin: 1em 0em; 
+    font-size: 1.6em; 
+    font-weight: 700; 
+} 
+.button { 
+    text-decoration: none; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 12px; 
+    background-color: #4CAF50;  
+    color: white;  
+    border-radius: 5px solid #4CAF50; 
+    padding: 10px 20px; 
+    margin: 2px 2px; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+} 
+      
+.button:hover { 
+    background-color: white; 
+    color: #4CAF50; 
+} 
+
+
+.company-details{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    background: #E3F0F7; 
+    text-align: center; 
+    margin-top: 5em; 
+} 
+  
+#footer #col1, 
+#footer #col2, 
+#footer #col3{ 
+    float: left; 
+    width: 320px; 
+    padding: 0px 40px 0px 40px; 
+} 
+      
+#footer #icon{ 
+    display: block; 
+    margin-bottom: 1em; 
+    font-size: 3em; 
+} 
+  
+/*** Adding Styles to Copyright Div ***/
+.copyright 
+{ 
+    overflow: hidden; 
+    padding: 3em 0em; 
+    border-top: 20px solid rgba(255, 255, 255, 0.08); 
+    text-align: center; 
+    background:#FFF; 
+} 
+      
+.copyright p 
+{ 
+    letter-spacing: 1px; 
+    font-size: 0.90em; 
+    color: #0e0b0b99; 
+} 
+      
+.copyright a 
+{ 
+    text-decoration: none; 
+    color: rgba(255, 255, 255, 0.8); 
+} 
+  
+/* Styling Social Icons */
+ul.contact{ 
+    margin: 0; 
+    padding: 2em 0em 0em 0em; 
+    list-style: none; 
+    /* width: 200px; */
+    float: center;
+} 
+      
+ul.contact li{ 
+    display: inline-block; 
+    padding: 0em 0.10em; 
+    font-size: 1em; 
+} 
+  
+ul.contact li a{ 
+    color: blue; 
+    display: inline-block; 
+    background:white; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+}  
